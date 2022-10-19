@@ -16,6 +16,7 @@ struct ContentView: View {
             ColorCircleView(color: .yellow, pressedButton: true)
             ColorCircleView(color: .green, pressedButton: true)
             Spacer()
+            
         } .padding()
         
         
