@@ -8,31 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var redLight = 0.5
-    @State var yellowLight = 0.5
-    @State var greenLight = 0.5
-    
+        
     var body: some View {
         VStack {
-            ColorCircleView(color: .red, opocity: redLight)
-                .padding()
-            ColorCircleView(color: .yellow, opocity: yellowLight)
-                .padding()
-            ColorCircleView(color: .green, opocity: greenLight)
-                
-                .padding()
             
+            ColorCircleView(color: .red, pressedButton: true)
+            ColorCircleView(color: .yellow, pressedButton: true)
+            ColorCircleView(color: .green, pressedButton: true)
             Spacer()
-
-        }
-        .padding()
+        } .padding()
         
         
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
