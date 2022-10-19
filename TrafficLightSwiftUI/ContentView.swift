@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var redLight = 0.5
+    @State var yellowLight = 0.5
+    @State var greenLight = 0.5
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ColorCircleView(color: .red, opocity: redLight)
+                .padding()
+            ColorCircleView(color: .yellow, opocity: yellowLight)
+                .padding()
+            ColorCircleView(color: .green, opocity: greenLight)
+                
+                .padding()
+            
+            Spacer()
+
         }
         .padding()
+        
+        
     }
 }
 
