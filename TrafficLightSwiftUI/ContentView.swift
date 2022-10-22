@@ -12,9 +12,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            ColorCircleView(color: .red, pressedButton: true)
-            ColorCircleView(color: .yellow, pressedButton: true)
-            ColorCircleView(color: .green, pressedButton: true)
+//            ColorCircleView(color: .red, pressedButton: true)
+//            ColorCircleView(color: .yellow, pressedButton: true)
+//            ColorCircleView(color: .green, pressedButton: true)
             Spacer()
             
         } .padding()

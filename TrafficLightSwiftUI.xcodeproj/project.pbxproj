@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA72D6DC2903F31D0078A1BE /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D6DB2903F31D0078A1BE /* StartButtonView.swift */; };
 		CA90E693290084E400703482 /* TrafficLightSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90E692290084E400703482 /* TrafficLightSwiftUIApp.swift */; };
 		CA90E695290084E400703482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90E694290084E400703482 /* ContentView.swift */; };
 		CA90E697290084E700703482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA90E696290084E700703482 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA72D6DB2903F31D0078A1BE /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		CA90E68F290084E400703482 /* TrafficLightSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA90E692290084E400703482 /* TrafficLightSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightSwiftUIApp.swift; sourceTree = "<group>"; };
 		CA90E694290084E400703482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				CA90E692290084E400703482 /* TrafficLightSwiftUIApp.swift */,
 				CA90E694290084E400703482 /* ContentView.swift */,
+				CA72D6DB2903F31D0078A1BE /* StartButtonView.swift */,
 				CA90E6A0290085C900703482 /* ColorCircleView.swift */,
 				CA90E696290084E700703482 /* Assets.xcassets */,
 				CA90E698290084E700703482 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA90E6A1290085CA00703482 /* ColorCircleView.swift in Sources */,
+				CA72D6DC2903F31D0078A1BE /* StartButtonView.swift in Sources */,
 				CA90E695290084E400703482 /* ContentView.swift in Sources */,
 				CA90E693290084E400703482 /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
