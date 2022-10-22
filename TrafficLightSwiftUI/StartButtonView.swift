@@ -20,11 +20,12 @@ struct StartButtonView: View {
         }
         .padding()
         .frame(width: 200, height: 60)
-        .background(Color.blue)
+        .background(Color.green)
         .cornerRadius(20)
         .overlay(
         RoundedRectangle(cornerRadius: 20)
-            .stroke(Color.white)
+            .stroke(Color.black, lineWidth: 3)
+            .shadow(radius: 20)
         )
     }
 }
